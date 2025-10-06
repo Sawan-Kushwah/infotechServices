@@ -1,0 +1,786 @@
+#mobile-navbar .mobile-nav-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+#mobile-navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#mobile-navbar-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+
+#mobile-navbar-close {
+  position: static;
+  font-size: 28px;
+  color: #fa1239;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#navbar-hamburger.hide {
+  display: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Figtree, Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+}
+
+body {
+  margin: 0;
+}
+
+/* Hero Section container */
+#hero-section {
+  position: relative;
+  min-height: 909px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-content {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(261.18deg,
+      rgba(255, 231, 235, 1) 0%,
+      rgba(255, 191, 201, 1) 100%);
+  height: 909px;
+  width: 100%;
+}
+
+#hero-bg-shape {
+  position: absolute;
+  left: 55%;
+  top: 21%;
+}
+
+/* white info card (260+) */
+/* white info card (260+) */
+#resume-count-container {
+  position: absolute;
+  background: #fff;
+  border-radius: 10px;
+  height: 133px;
+  width: 270.66px;
+  right: 50px;
+  top: 734px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+#resume-count-bg {
+  position: relative;
+}
+
+#resume-count-info {
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-260 {
+  font-family: Figtree;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000;
+}
+
+.subtext {
+  font-family: Figtree;
+  font-size: 17px;
+  font-weight: 500;
+  color: #666;
+  display: block;
+  width: 124px;
+
+}
+
+/* Left content block */
+#hero-text-block {
+  position: absolute;
+  height: 510px;
+  width: 620px;
+  left: 100px;
+  top: 228px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.headline {
+  display: block;
+  font-family: Figtree;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.headline.highlight {
+  color: #fa1239;
+  line-height: 85px;
+  display: ruby;
+}
+
+.paragraph {
+  display: block;
+  font-family: Figtree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #000;
+  width: 80%;
+}
+
+/* Buttons */
+#hero-buttons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.btn-outline {
+  background: #fff;
+  border: 1px solid #fa1239;
+  border-radius: 30px;
+  box-shadow: 0 0 12px rgba(250, 18, 57, 0.58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+}
+
+.btn-primary {
+  background: #fa1239;
+  border-radius: 30px;
+  box-shadow: 0 0 12px rgba(250, 18, 57, 0.58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+}
+
+.btn-text {
+  font-family: Figtree;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fa1239;
+}
+
+.btn-text-white {
+  color: #fff;
+}
+
+/* Rating card */
+#rating-container {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.79);
+  border-radius: 10px;
+  backdrop-filter: blur(91px);
+  height: 117px;
+  width: 350px;
+  left: 800px;
+  top: 585px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 15px;
+}
+
+#rating-value {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  color: #1cb098;
+}
+
+#rating-label {
+  font-family: Figtree;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#rating-stars {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+}
+
+/* Top navigation */
+#navbar-container {
+  position: absolute;
+  background: #fff;
+  height: 100px;
+  width: 100%;
+  top: 0;
+}
+
+#navbar {
+  height: 99px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+#navbar-logo {
+  height: 60px;
+}
+
+#navbar-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+#navbar-cta {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  font-family: Figtree;
+  font-size: 18px;
+  font-weight: 500;
+  color: #282828;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+/* Hamburger menu styles */
+#navbar-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 1002;
+  cursor: pointer;
+}
+
+#navbar-hamburger span {
+  display: block;
+  width: 28px;
+  height: 4px;
+  margin: 4px 0;
+  background: #000;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Mobile navbar overlay */
+#mobile-navbar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.25s cubic-bezier(.4, 0, .2, 1);
+}
+
+#mobile-navbar-overlay.active {
+  opacity: 1;
+}
+
+/* Pink background for mobile navbar */
+#mobile-navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 85%;
+  height: 100vh;
+  background: linear-gradient(261.18deg, rgba(255, 231, 235, 1) 0%, rgba(255, 191, 201, 1) 100%);
+  box-shadow: -2px 0 12px rgba(0, 0, 0, 0.08);
+  z-index: 1001;
+  flex-direction: column;
+  padding: 32px 16px 16px 16px;
+  transform: translateX(100%);
+  transition: transform 0.7s cubic-bezier(.4, 0, .2, 1), opacity 0.25s cubic-bezier(.4, 0, .2, 1);
+  opacity: 0.97;
+  pointer-events: none;
+}
+
+
+
+#mobile-navbar.open {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#mobile-navbar .nav-link {
+  margin-bottom: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#mobile-navbar .btn-primary {
+  margin-top: 24px;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#mobile-navbar-close {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  font-size: 50px;
+  color: #fa1239;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* Root frame */
+#features-section {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
+  min-height: 774px;
+  width: 100%;
+}
+
+
+
+/* main container */
+#features-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/* header/eyebrow area */
+#features-header {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+#features-header-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#features-title {
+  background: rgba(253, 146, 164, 0.3);
+  border-radius: 6px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.what-you-get-text {
+  font-family: Figtree;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
+}
+
+#features-eyebrow-block {
+  width: 80%;
+  text-align: center;
+}
+
+/* big headline */
+#features-header-desc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.eyebrow {
+  font-family: Figtree;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 55px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.eyebrow.highlight {
+  color: #fa1239;
+}
+
+/* cards row */
+#features-cards {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+/* single card common styles */
+.feature-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  height: 410px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+}
+
+/* image container in card */
+.feature-card-icon {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+}
+
+/* images positioned (keeps the original feel) */
+.feature-icon {
+  position: absolute;
+  left: 17%;
+  top: 13%;
+}
+
+/* card title and description */
+.feature-card-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 35px;
+  text-align: center;
+}
+
+.feature-card-desc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-desc {
+  font-size: 18px;
+  color: #595959;
+  text-align: center;
+}
+
+
+
+
+
+/* Responsive */
+@media (max-width: 1100px) {
+  #features-content {
+    left: 20px;
+  }
+
+  #features-cards {
+    flex-direction: column;
+    height: auto;
+    gap: 18px;
+  }
+
+  .feature-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .eyebrow {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  #hero-side-shape {
+    display: none;
+  }
+
+  #features-cards {
+    flex-direction: column;
+    height: auto;
+    gap: 18px;
+  }
+
+  .feature-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .eyebrow {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  #hero-text-block {
+    left: 20px;
+    top: 150px;
+    width: 90%;
+  }
+
+  #resume-count-container {
+    left: auto;
+    right: 20px;
+    top: calc(100% - 120px);
+  }
+
+  #navbar {
+    padding: 0 20px;
+    width: calc(100% - 40px);
+  }
+}
+
+/* Hide logo and desktop nav when mobile navbar is open */
+@media (max-width: 1000px) {
+
+  #navbar.open-logo-hide #navbar-logo,
+  #navbar.open-logo-hide #navbar-links,
+  #navbar.open-logo-hide #navbar-cta {
+    display: none !important;
+  }
+
+  #navbar-hamburger {
+    display: flex;
+  }
+}
+
+@media (max-width: 1000px) {
+  #hero-section {
+    min-height: 700px;
+  }
+
+  #hero-content {
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  #hero-bg-shape {
+    display: block;
+    position: unset;
+    max-width: 100vw;
+  }
+
+  #hero-text-block {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    padding: 20px 10px 0 10px;
+    gap: 15px;
+    z-index: 1;
+  }
+
+  .headline {
+    font-size: 32px;
+    line-height: 15px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 35px;
+    display: inline;
+  }
+
+  #resume-count-container {
+    position: absolute;
+    left: 74%;
+    top: 86%;
+    transform: translate(-50%, 0);
+    width: 153px;
+    height: 66px;
+    z-index: 2;
+  }
+
+  #rating-container {
+    position: absolute;
+    left: 31%;
+    top: 77%;
+    transform: translate(-50%, 0);
+    width: 180px;
+    height: 64px;
+    z-index: 2;
+    gap: 10px;
+    padding: 15px 10px;
+  }
+
+  #navbar-container {
+    height: 60px;
+  }
+
+  #navbar {
+    height: 60px;
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  #navbar-logo {
+    height: 40px;
+  }
+
+  #navbar-links {
+    display: none;
+  }
+
+  #navbar-cta {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+
+  #hero-headline {
+    text-align: center;
+  }
+
+  #hero-description {
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  #hero-buttons {
+    flex-direction: column;
+  }
+
+  #hero-content {
+    display: flex;
+    gap: 70px;
+  }
+
+  #rating-label {
+    font-size: 14px;
+  }
+
+  #rating-value {
+    font-size: 22px;
+  }
+
+  .star {
+    width: 12px;
+    height: 12px;
+  }
+
+  .subtext {
+    font-size: 11px;
+    width: 78px;
+  }
+
+  #resume-count-bg {
+    width: 36px;
+  }
+
+  .big-260 {
+    font-size: 18px;
+  }
+
+  #features-eyebrow-block {
+    width: 100%;
+  }
+
+  .feature-card-desc {
+    padding: 0px 35px 20px 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .eyebrow {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-desc {
+    font-size: 14px;
+  }
+
+  #features-content {
+    left: 0;
+    width: 100%;
+    padding: 0 4px;
+    padding-bottom: 60px;
+  }
+
+  #features-header {
+    width: 100%;
+  }
+
+  #features-header-title,
+  #features-header-desc {
+    padding: 0 4px;
+  }
+
+  #features-cards {
+    gap: 10px;
+  }
+
+  .feature-card {
+    padding: 10px;
+  }
+
+  .eyebrow {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-desc {
+    font-size: 16px;
+  }
+}
